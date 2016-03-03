@@ -40,9 +40,4 @@ Thumbs.db
 ###########
 bower_components
 node_modules
-public/css
-public/fonts/vendor
-public/js/vendor
-public/**/*.html
-build
 .sass-cache
