@@ -2,3 +2,36 @@
 @import variables
 @import ../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss
 @import ../bower_components/font-awesome/scss/font-awesome.scss
+
+header
+  padding: 100px 0 38px
+  text-align: center
+  img
+    width: 250px
+  h1
+    margin: 30px 0 20px
+    color: $accent-color
+  p.lead
+    @extend .col-md-8
+    @extend .col-md-offset-2
+    font-weight: 400
+    color: lighten(#000, 45%)
+
+.divider
+  background: url(../images/divider.png) no-repeat center / contain
+  height: 400px
+
+.contact
+  padding: 38px 0 100px
+  border-bottom: solid 10px $accent-color
+  img
+    width: 100%
+    margin-bottom: 20px
+  h2
+    text-transform: uppercase
+    margin-bottom: 20px
+    text-align: center
+    color: $accent-color
+    text-decoration: underline
+
+@import media-queries
